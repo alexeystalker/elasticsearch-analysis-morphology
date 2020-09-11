@@ -17,32 +17,42 @@
  * under the License.
  */
 
+repositories {
+    maven {
+        name 'bintray-babayotakun-russianmorphology'
+        url "https://dl.bintray.com/babayotakun/russianmorphology"
+    }
+}
+
 buildscript {
   repositories {
     mavenLocal()
     mavenCentral()
     jcenter()
+    maven {
+      name 'sonatype-snapshots'
+      url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
   }
   dependencies {
-    classpath "org.elasticsearch.gradle:build-tools:7.6.0"
+    classpath "org.elasticsearch.gradle:build-tools:6.8.12"
   }
 }
 
 apply plugin: 'elasticsearch.esplugin'
 
-version = '7.6.0'
+version = '6.8.12'
 esplugin {
   name 'analysis-morphology'
   description 'English and Russian Morphology for ElasticSearch.'
   classname 'org.elasticsearch.plugin.analysis.morphology.AnalysisMorphologyPlugin'
   dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "org.apache.lucene.morphology:russian:1.4"
+    compile "org.apache.lucene.morphology:english:1.4"
+    compile "org.apache.lucene.morphology:morph:1.4"
   }
 }
 esplugin.version = version
-
-
-
 
 thirdPartyAudit.enabled = false
 dependencyLicenses.enabled = false

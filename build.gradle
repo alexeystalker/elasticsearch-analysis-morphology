@@ -24,13 +24,13 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "org.elasticsearch.gradle:build-tools:7.6.0"
+    classpath "org.elasticsearch.gradle:build-tools:7.11.1"
   }
 }
 
 apply plugin: 'elasticsearch.esplugin'
 
-version = '7.6.0'
+version = '7.11.1'
 esplugin {
   name 'analysis-morphology'
   description 'English and Russian Morphology for ElasticSearch.'
@@ -42,12 +42,8 @@ esplugin {
 esplugin.version = version
 
 
-
-
-thirdPartyAudit.enabled = false
-dependencyLicenses.enabled = false
-checkstyleTest.enabled = false
-testingConventions.enabled = false
+validateNebulaPom.enabled = false
 
 project.licenseFile = project.rootProject.file('LICENSE.txt')
 project.noticeFile = project.rootProject.file('NOTICE.txt')
+

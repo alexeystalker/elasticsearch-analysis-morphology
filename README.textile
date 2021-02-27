@@ -17,7 +17,7 @@ h2. Compatibility
 Plugin is avaliable only for Elasticsearch 7.11.1.
 
 |_. Morphological Analysis Plugin |_.  Elasticsearch   |_. URL  |
-| 7.11.1                           | 7.11.1   | build yourself: gradlew build |
+| 7.11.1                           | 7.11.1   | [from repo](https://github.com/sarafanfm/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.11.1.zip) |
 
 
 h2. Installation

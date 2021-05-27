@@ -12,8 +12,6 @@ Java SDK - tested on 15.
 
 ## Compatibility
 
-Plugin is avaliable only for Elasticsearch 7.11.1.
-
 Morphological Analysis Plugin | Elasticsearch   | URL  
 --------| -------------|---------
 7.6.0                            |7.6.0                |https://github.com/DigDes/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.6.0.zip

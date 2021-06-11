@@ -12,11 +12,12 @@ Java SDK - tested on 15.
 
 ## Compatibility
 
-Morphological Analysis Plugin | Elasticsearch   | URL  
---------| -------------|---------
-7.6.0                            |7.6.0                |https://github.com/DigDes/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.6.0.zip
-7.10.2                            |7.10.2              |https://github.com/DigDes/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.10.2.zip
-7.11.1                           | 7.11.1   | https://github.com/sarafanfm/elasticsearch-analysis-morphology/raw/7.11.1/analysis-morphology-7.11.1.zip
+Morphological Analysis Plugin | Elasticsearch | URL  
+--------|--------------|---------
+7.6.0 | 7.6.0 | https://github.com/DigDes/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.6.0.zip
+7.8.0 | 7.8.0 | https://github.com/alexeystalker/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.8.0.zip
+7.10.2 | 7.10.2 | https://github.com/DigDes/elasticsearch-analysis-morphology/raw/master/analysis-morphology-7.10.2.zip
+7.11.1 | 7.11.1 | https://github.com/sarafanfm/elasticsearch-analysis-morphology/raw/7.11.1/analysis-morphology-7.11.1.zip
 
 
 ## Installation
